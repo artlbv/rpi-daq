@@ -1,0 +1,23 @@
+---
+daq_options:
+ moduleNumber: test
+ compressRawData: yes
+ nEvent: 100
+ externalChargeInjection: yes
+ acquisitionType: sweep
+ channelIds: [30]
+ channelIdsToMask: []
+ channelIdsDisableTOT: []
+ channelIdsDisableTOA: []
+ injectionDAC: 1000
+ pulseDelay: 72
+ preampFeedbackCapacitance: 8
+ totDACThreshold: 200
+glb_options:
+ outputRawDataPath: data
+ outputYamlPath: yaml
+ storeYamlFile: yes
+ startServerManually: no
+ serverIpAdress: 192.168.250.117
+ serverCodePath: /home/pi/rpi-daq
+...
