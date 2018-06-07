@@ -1,7 +1,7 @@
 import zmq,yaml
 import ctypes,struct,datetime,time
 import rpi_daq, unpacker
-import skiroc2cms_bit_string as sk2conf
+import config.skiroc2cms_bit_string as sk2conf
 
 if __name__ == "__main__":
     context = zmq.Context()

@@ -1,6 +1,6 @@
 import datetime,ctypes,yaml
 import rpi_daq, unpacker
-import skiroc2cms_bit_string as sk2conf
+import config.skiroc2cms_bit_string as sk2conf
 from optparse import OptionParser
 
 class yaml_config:
@@ -37,7 +37,7 @@ if __name__ == "__main__":
     parser.add_option('-s','--showRawData',dest="showRawData",action="store_true",default=False,
                       help="set to decode and print raw data")
     parser.add_option("-y", "--yaml", dest="yamlfname",type=str,action="store",
-                      help="yaml file to use",default="default-config.yaml")
+                      help="yaml file to use",default="config/default-config.yaml")
     parser.add_option("-m", "--moduleNumber", dest="moduleNumber",type=str,action="store",
                       help="module number/name",default="test_board")
 

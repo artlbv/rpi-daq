@@ -38,7 +38,7 @@ if __name__ == "__main__":
     parser.add_option("-f", "--pulseDelay", dest="pulseDelay",type="int",action="store",
                       help="pulse delay (arbitrary unit) w.r.t. the trigger",default=72)
     parser.add_option("-y", "--yaml", dest="yamlfname",type=str,action="store",
-                      help="yaml file to use",default="default-config.yaml")
+                      help="yaml file to use",default="config/default-config.yaml")
     parser.add_option("-m", "--moduleNumber", dest="moduleNumber",type=str,action="store",
                       help="module number/name",default="test_board")
 
