@@ -2,9 +2,9 @@
 daq_options:
  moduleNumber: test
  compressRawData: yes
- nEvent: 100
+ nEvent: 10
  externalChargeInjection: yes
- acquisitionType: sweep
+ acquisitionType: const_inj
  channelIds: [30]
  channelIdsToMask: []
  channelIdsDisableTOT: []
