@@ -1,5 +1,6 @@
 ---
 daq_options:
+ moduleNumber: test
  compressRawData: yes
  nEvent: 100
  externalChargeInjection: yes
@@ -10,10 +11,9 @@ daq_options:
  channelIdsDisableTOA: [22]
  injectionDAC: 1000
  pulseDelay: 72
- preampFeedbackCapacitance: 8 
+ preampFeedbackCapacitance: 8
  totDACThreshold: 200
 glb_options:
- moduleNumber: a_very_descriptive_string
  outputRawDataPath: data
  outputYamlPath: yaml
  storeYamlFile: yes
